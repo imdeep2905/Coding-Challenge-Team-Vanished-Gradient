@@ -1,0 +1,4 @@
+Execution Completed in: 0.08 Seconds
+Remaining Switches: 6, 15, 21, 18, 0, 
+Total Value gained: 820
+% of total volume packed: 90.1667 %
