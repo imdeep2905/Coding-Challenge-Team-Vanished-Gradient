@@ -116,11 +116,11 @@ void take_input()
     i >> rack_depth >> rack_width >> rack_height;
     if( rack_width >= rack_depth )
         swap(rack_depth, rack_width);
-    i >> switches_cord[0][0] >> switches_cord[0][1] >> switches_cord[0][2] >> switches_value[0] >> switches_inst[0];
-    i >> switches_cord[1][0] >> switches_cord[1][1] >> switches_cord[1][2] >> switches_value[1] >> switches_inst[1];
-    i >> switches_cord[2][0] >> switches_cord[2][1] >> switches_cord[2][2] >> switches_value[2] >> switches_inst[2];
-    i >> switches_cord[3][0] >> switches_cord[3][1] >> switches_cord[3][2] >> switches_value[3] >> switches_inst[3];
-    i >> switches_cord[4][0] >> switches_cord[4][1] >> switches_cord[4][2] >> switches_value[4] >> switches_inst[4];
+    i >> switches_cord[0][2] >> switches_cord[0][1] >> switches_cord[0][0] >> switches_value[0] >> switches_inst[0];
+    i >> switches_cord[1][2] >> switches_cord[1][1] >> switches_cord[1][0] >> switches_value[1] >> switches_inst[1];
+    i >> switches_cord[2][2] >> switches_cord[2][1] >> switches_cord[2][0] >> switches_value[2] >> switches_inst[2];
+    i >> switches_cord[3][2] >> switches_cord[3][1] >> switches_cord[3][0] >> switches_value[3] >> switches_inst[3];
+    i >> switches_cord[4][2] >> switches_cord[4][1] >> switches_cord[4][0] >> switches_value[4] >> switches_inst[4];
     depth_list = get_promising_depths();//Getting all promising depths
     width_list = get_promising_widths();//Gets all promising widths.
     i.close();
