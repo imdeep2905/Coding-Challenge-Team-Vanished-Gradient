@@ -4,6 +4,10 @@ We solved Knapsack Container Loading Problem as a part of Coding challenge held 
 
 We recommand you read [readme](https://github.com/imdeep2905/Coding-Challenge-Team-Vanished-Gradient/blob/master/Readme.txt) first before running our program.
 
+# Acknowledgment
+
+We would like to thank Dr. Devang Pandya, Adani Institute of Infrastructure Engineering for his continuous guidance and support.
+
 # Credits
 
 Contributors :computer: : 
